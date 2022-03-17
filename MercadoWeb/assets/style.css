@@ -1,0 +1,57 @@
+#menu{
+    cursor: pointer;
+    max-height: 47px;
+}
+#menu:hover{
+    border: 2px solid black;
+}
+#menu>div>img{
+    width: 30px;
+}
+
+#menu:hover>div>img{
+    width: 31px;
+}
+
+#menu>div{
+    position: relative;
+}
+
+.cart-counter{
+    position: absolute;
+    background-color: red;
+    color: white;
+    top: -2px;
+    right: -6px;
+    border-radius: 100%;
+    width: 14px;
+    height: 14px;
+    font-size: .55rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card{
+    position: relative;
+    max-width: 17rem;
+}
+.card:hover{
+    cursor: pointer;
+}
+.card>img{
+    width: 15rem;
+    max-height: 15rem;
+}
+.card:hover>img{
+    width: 16rem;
+}
+.product-counter{
+    position: absolute;
+    background-color: lightgreen;
+    color: white;
+    border-radius: 100%;
+    width: 24px;
+    top: -10px;
+    right: -10px;
+    text-align: center;
+}

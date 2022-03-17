@@ -1,0 +1,10 @@
+{{#each products}}
+<div class="card" style="width: 17rem; margin: 2.5rem; col-4;" id="product-#{{this}}">
+  <div class="product-counter" id="product-counter-{{this}}"></div>
+  <img class="card-img-top" src="{{this}}.png" alt="Card image cap">
+  <hr>
+  <div class="card-body d-flex justify-content-center">
+    <h1 class="card-title">{{this}}</h1>
+  </div>
+</div>
+{{/each}}

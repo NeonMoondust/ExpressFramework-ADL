@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Web</title>
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    {{>menu imagen="cart.png"}}
+    <center><h1>Bienvenido!</h1></center>
+    {{#if products}}
+    <div class="container" id="container"><div class="row justify-content-center">{{>product}}</div></div>
+    {{/if}}
+
+    {{>modal}}
+    <script src="/js/bootstrap.js"></script>
+    <script src="/jquery/jquery.js"></script>
+    <script src="controller.js"></script>
+
+    {{#unless products}}
+    <h3>No existen Productos!</h3>
+    {{/unless}}
+</body>
+</html>
