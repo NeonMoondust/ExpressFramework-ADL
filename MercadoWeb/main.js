@@ -45,7 +45,6 @@ app.post("/", (request, response) => {
         body = JSON.parse(body);
         products[body] += 1;
         response.end('fine');
-        // response.status(200).end(JSON.stringify(await dataManagement('user_post', [body.nombre, body.balance])));
     });
     
 });
