@@ -1,0 +1,15 @@
+{
+  "name": "tienda_de_joyas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js"
+  },
+  "keywords": [],
+  "author": "NeonMoondust <backanconz2@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
